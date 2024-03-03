@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/showcheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#808080"
+        android:text="We like cheese"
+        app:backgroundTint="#808080"
+        app:iconTint="#808080" />
+    <ImageView
+        android:id="@+id/cheese1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cheese1"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/cheese2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cheese2"
+        android:visibility="invisible" />
+    <ImageView
+        android:id="@+id/cheese3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cheese3"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/cheese4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cheese4"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/cheese5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cheese5"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/cheese6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cheese6"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/cheese7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cheese7"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/cheese8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cheese8"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/cheese9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cheese9"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/cheese10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cheese10"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>
