@@ -7,6 +7,11 @@
 
     <uses-feature android:name="android.software.leanback" android:required="false" />
     <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-feature android:name="android.hardware.type.watch" />
+    <uses-feature android:name="android.hardware.type.automotive" />
+    <uses-feature android:name="android.hardware.type.automotive_car" />
+    <uses-feature android:name="android.hardware.type.television" />
+    <uses-feature android:name="android.hardware.type.pc" />
 
     <application
         android:allowBackup="true"
@@ -23,7 +28,8 @@
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:taskAffinity="DaCosySheeep.Cheese">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -32,6 +38,9 @@
         </activity>
         <meta-data android:name="com.google.android.gms.car.application"
             android:resource="@xml/automotive_app_desc" />
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
 
     </application>
 </manifest>
